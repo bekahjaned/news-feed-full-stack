@@ -20,4 +20,4 @@ Twitter who? The latest news feed app, The Timely Bizz allows you to scroll the 
 
 ### Demo
 
-![demo of news-feed](/front-end/data/news-feed-demo.gif)
+A demo gif of the application can be found [here](/front-end/data/news-feed-demo.gif).
