@@ -57,10 +57,7 @@ class Dashboard extends React.Component {
         this.favesSet.add(faveArticle);
         
         let faves = [...this.favesSet];
-        this.setState((prevState) => ({
-            ...prevState.articles,
-            faves: faves
-        }));
+        this.setState({ faves })
         
     };
 
@@ -69,10 +66,7 @@ class Dashboard extends React.Component {
         this.favesSet.delete(goneArticle);
 
         let faves = [...this.favesSet];
-        this.setState((prevState) => ({
-            ...prevState.articles,
-            faves: faves
-        }));
+        this.setState({ faves })
     };
 
     render() {
