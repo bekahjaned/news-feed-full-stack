@@ -8,7 +8,6 @@ router.get("/", async (req, res, next) => {
     const news_url = `https://api.nytimes.com/svc/news/v3/content/all/all.json?page=50&api-key=${api_key}`
     const news_response = await fetch(news_url);
     const news_data = await news_response.json();
-    console.log(news_data)
 
     res.send(news_data)
 });
