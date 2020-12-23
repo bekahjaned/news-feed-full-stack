@@ -10,7 +10,7 @@ router.get("/", async (req, res, next) => {
     const news_data = await news_response.json();
     console.log(news_data)
 
-    res.send([news_data])
+    res.send(news_data)
 });
 
 module.exports = router;
