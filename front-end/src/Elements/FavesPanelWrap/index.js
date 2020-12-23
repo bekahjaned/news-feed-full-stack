@@ -15,16 +15,15 @@ export const FavesPanelWrap = styled.div`
 
     ${media.desktop} {
         width: 40%;
+        height: 100%;
+        position: fixed;
         top: 0;
         bottom: 0;
-        position: fixed;
+        overflow-y: auto;
 
         div.show.hide {
-            display: block;
-            height: 100%;
+            display: flex;
             background-color: #91f0e0;
-            overflow-x: scroll;
-            overflow-y: scroll;
         }
             
         h2 {
