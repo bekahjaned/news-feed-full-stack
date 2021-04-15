@@ -20,7 +20,7 @@ All img tags have alternate text.
 
 ### Running this App
 
-This is a full-stack app, so bith the front-end and server must both be running in order for the application to work.
+This is a full-stack app, so both the front-end and server must both be running in order for the application to work.
 
 ## Marketing
 
