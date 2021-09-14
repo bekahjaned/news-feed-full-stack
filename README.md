@@ -25,7 +25,3 @@ This is a full-stack app, so both the front-end and server must both be running 
 ## Marketing
 
 Twitter who? The latest news feed app, The Timely Bizz allows you to scroll the freshest articles from New York Times, at a leisurely, non-stressful pace.
-
-### Demo
-
-A demo gif of the application can be found [here](/front-end/data/news-feed-demo.gif).
